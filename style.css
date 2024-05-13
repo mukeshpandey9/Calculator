@@ -1,0 +1,85 @@
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+div.calc {
+    background-color: #845abc;
+    margin: 0px auto;
+    width: 38rem;
+    height: auto;
+    padding: 30px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #ffffff;
+    font-size: 20px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    box-shadow: 2px 2px 5px gray;
+    transition: 0.2s;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+button:active{
+    transform: scale(0.95);
+    background-color: #5d039a !important;
+}
+
+button:hover {
+    background-color: #e3d4f8;
+}
+
+button:focus {
+    outline: none;
+}
+
+textarea {
+    margin: 0px auto;
+    font-size: 30px;
+    width: 98% !important;
+    border: none;
+    text-align: right;
+    border-radius: 8px;
+    height: 10rem !important;
+    background-color: #4a4949;
+    color: white;
+    padding: 10px;
+}
+
+.inputVal{
+    width: 100%;
+}
